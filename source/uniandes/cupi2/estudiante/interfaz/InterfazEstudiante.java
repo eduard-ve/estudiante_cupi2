@@ -270,9 +270,8 @@ public class InterfazEstudiante extends JFrame
      */
     public void reqFuncOpcion1( )
     {
-        String respuesta = estudiante.metodo1( );
-        actualizar( );
-        JOptionPane.showMessageDialog( this, respuesta, "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+    	String resumen = estudiante.metodo1();
+        JOptionPane.showMessageDialog(this, resumen, "Estado Académico", JOptionPane.INFORMATION_MESSAGE);
     }
 
     /**
